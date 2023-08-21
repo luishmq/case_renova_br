@@ -1,7 +1,7 @@
 # Case Técnico Renova BR 🔎📚
 Foi requisitado a análise e tratamento de dados oriundos do repositório de dados eleitorais do TSE (Tribunal Superior Eleitoral). Esses dados representam as eleições municipais de São Paulo do ano de 2020.
 
-![]()
+![](imgs/logo-tse.jpg)
 
 # 1.0 Descrição dos dados
 
