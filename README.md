@@ -98,11 +98,11 @@ Foi requisitado a análise e tratamento de dados oriundos do repositório de dad
 
 - Dados do perfil do eleitorado:
 
-![](imgs/)
+![](imgs/profs_na.png)
 
 - Dados dos resultados:
 
-![](imgs/)
+![](imgs/results_na.png)
 
 13 linhas na coluna 'nm_votavel' como NaN.
 Após a análise no notebook, concluiu-se que a remoção das linhas nulas é válida.
@@ -122,8 +122,8 @@ Nesse caso, é válido deixar esses campos no conjunto de dados, de modo que haj
 
 # 5.0 Join e Insights
 
-Foi realizado o merge entre os dois conjuntos de dados, explorando apenas uma amostra de cada um, devido ao tamanho dos arquivos e incapacidade de processamento da minha máquina.
-Gráficos foram gerados para ilustrar os principais insights.
+- Foi realizado o merge entre os dois conjuntos de dados, explorando apenas uma amostra de cada um, devido ao tamanho dos arquivos e incapacidade de processamento da minha máquina.
+- Gráficos foram gerados para ilustrar os principais insights.
 
 ## 5.1 Qual candidato foi mais votado em cada município - Top 5:
 
@@ -143,8 +143,12 @@ Gráficos foram gerados para ilustrar os principais insights.
 
 ## 5.5 Qual município o candidato X foi mais votado
 
+![](imgs/munic_covas.png)
+
 ## 5.6 Correlação entre o grau de escolaridade e votos
+
+![](imgs/corr.png)
 
 ## 5.7 Candidato mais votado por eleitores com deficiência
 
-## 5.8 Correlação entre a quantidade de abstenções e a faixa etária dos votantes
+![](imgs/cand_mais.png)
