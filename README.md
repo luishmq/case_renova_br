@@ -1,5 +1,6 @@
 # Case Técnico Renova BR 🔎📚
-Foi requisitado a análise e tratamento de dados oriundos do repositório de dados eleitorais do TSE (Tribunal Superior Eleitoral). Esses dados representam as eleições municipais de São Paulo do ano de 2020.
+
+Foi requisitado a análise e tratamento de dados oriundos do repositório de dados eleitorais do TSE (Tribunal Superior Eleitoral). Para isso, foi utilizado a linguagem Python, conceitos técnicos de SQL, Git, ambiente virtual e a aplicação Jupyter Notebook. Esses dados representam as eleições municipais de São Paulo do ano de 2020. 
 
 ![](imgs/logo-tse.jpg)
 
@@ -83,7 +84,7 @@ Foi requisitado a análise e tratamento de dados oriundos do repositório de dad
 
 # 2.0 Estratégia de solução
 
-![](imgs/)
+![](imgs/mind_map_br.png)
 
 # 3.0 Tratamento de Dados
 
@@ -117,24 +118,33 @@ Nesse caso, é válido deixar esses campos no conjunto de dados, de modo que haj
 
 - Foi realizado uma filtragem dos dados do perfil do eleitorado para perfis votantes concentrados apenas na região de São Paulo.
 
-![](imgs/)
+![](imgs/filter.png)
 
 # 5.0 Join e Insights
 
-Foi realizado o merge entre os dois conjuntos de dados, explorando apenas uma amostra de cada um, devido ao tamanho dos arquivos e incapacidade de processamento da minha máquina. 
+Foi realizado o merge entre os dois conjuntos de dados, explorando apenas uma amostra de cada um, devido ao tamanho dos arquivos e incapacidade de processamento da minha máquina.
+Gráficos foram gerados para ilustrar os principais insights.
 
 ## 5.1 Qual candidato foi mais votado em cada município - Top 5:
 
-![](imgs/)
+![](imgs/vt_pm.png)
 
 ## 5.2 Qual gênero mais votou em cada candidato - Top 5:
 
-![](imgs/)
+![](imgs/vt_gen.png)
 
 ## 5.3 Qual faixa etária mais votou em cada candidato:
 
-![](imgs/)
+![](imgs/vt_fet.png)
 
 ## 5.4 Qual classe de grau de escolaridade mais votou em cada candidato
 
-![](imgs/)
+![](imgs/vt_escol.png)
+
+## 5.5 Qual município o candidato X foi mais votado
+
+## 5.6 Correlação entre o grau de escolaridade e votos
+
+## 5.7 Candidato mais votado por eleitores com deficiência
+
+## 5.8 Correlação entre a quantidade de abstenções e a faixa etária dos votantes
