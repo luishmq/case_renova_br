@@ -133,22 +133,22 @@ Nesse caso, é válido deixar esses campos no conjunto de dados, de modo que haj
 
 ![](imgs/vt_gen.png)
 
-## 5.3 Qual faixa etária mais votou em cada candidato:
+## 5.3 Qual faixa etária mais votou em cada candidato - Top 5:
 
 ![](imgs/vt_fet.png)
 
-## 5.4 Qual classe de grau de escolaridade mais votou em cada candidato
+## 5.4 Qual classe de grau de escolaridade mais votou em cada candidato - Top 5:
 
 ![](imgs/vt_escol.png)
 
-## 5.5 Qual município o candidato X foi mais votado
+## 5.5 Qual município o candidato X foi mais votado:
 
 ![](imgs/munic_covas.png)
 
-## 5.6 Correlação entre o grau de escolaridade e votos
+## 5.6 Correlação entre o grau de escolaridade e votos:
 
 ![](imgs/corr.png)
 
-## 5.7 Candidato mais votado por eleitores com deficiência
+## 5.7 Candidato mais votado por eleitores com deficiência:
 
 ![](imgs/cand_mais.png)
